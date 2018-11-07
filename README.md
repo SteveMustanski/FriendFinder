@@ -5,7 +5,12 @@ The application asks the user several questions and matches that data with exist
 
 The application does not have an real code to suggest a match, but simple math just for the purposes of having the application work.
 
-# Depenancies
+# Technologies Used
+* HTML/CSS
+* NodeJS
+* Heroku
+
+# Depenencies
 * express
 * path
 
