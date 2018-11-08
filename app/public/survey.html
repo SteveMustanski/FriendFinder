@@ -16,31 +16,31 @@
 
 <body>
 
-  <div class="container pt-5">
+  <div class="container pt-5 mb-5">
     <h1 class="mb-4">Friend Finder Survey</h1>
     <form>
       <div class="form-group row">
         <label for="userName" class="col-sm-2 col-form-label">Your Name:</label>
-        <div class="col-sm-10">
+        <div class="col-sm-6">
           <input type="text" class="form-control" id="userName">
         </div>
       </div>
       <div class="form-group row">
         <label for="email" class="col-sm-2 col-form-label">email:</label>
-        <div class="col-sm-10">
+        <div class="col-sm-6">
           <input type="text" class="form-control" id="email">
         </div>
       </div>
       <div class="form-group row">
         <label for="pic" class="col-sm-2 col-form-label">Link to Picture:</label>
-        <div class="col-sm-10">
+        <div class="col-sm-6">
           <input type="text" class="form-control" id="pic">
         </div>
       </div>
       <hr>
       <div class="form-group">
-        <label for="exampleFormControlSelect1">Beer is better than wine. (1 strongly disagree, 5 strongly agree)</label>
-        <select class="form-control" id="exampleFormControlSelect1">
+        <label for="q1">Beer is better than wine. (1 strongly disagree, 5 strongly agree)</label>
+        <select class="form-control col-sm-2" id="q1">
           <option>1</option>
           <option>2</option>
           <option>3</option>
@@ -49,9 +49,9 @@
         </select>
       </div>
       <div class="form-group">
-        <label for="exampleFormControlSelect1">I'd rather watch at home vs. go to movies. (1 strongly disagree, 5
+        <label for="q2">I'd rather watch at home vs. go to movies. (1 strongly disagree, 5
           strongly agree)</label>
-        <select class="form-control" id="exampleFormControlSelect1">
+        <select class="form-control col-sm-2" id="q2">
           <option>1</option>
           <option>2</option>
           <option>3</option>
@@ -60,9 +60,9 @@
         </select>
       </div>
       <div class="form-group">
-        <label for="exampleFormControlSelect1">Pizza, the more toppings the better. (1 strongly disagree, 5 strongly
+        <label for="q3">Pizza, the more toppings the better. (1 strongly disagree, 5 strongly
           agree)</label>
-        <select class="form-control" id="exampleFormControlSelect1">
+        <select class="form-control col-sm-2" id="q3">
           <option>1</option>
           <option>2</option>
           <option>3</option>
@@ -71,9 +71,9 @@
         </select>
       </div>
       <div class="form-group">
-        <label for="exampleFormControlSelect1">I prefer large parties to small get togethers. (1 strongly disagree, 5
+        <label for="q4">I prefer large parties to small get togethers. (1 strongly disagree, 5
           strongly agree)</label>
-        <select class="form-control" id="exampleFormControlSelect1">
+        <select class="form-control col-sm-2" id="q4">
           <option>1</option>
           <option>2</option>
           <option>3</option>
@@ -82,9 +82,9 @@
         </select>
       </div>
       <div class="form-group">
-        <label for="exampleFormControlSelect1">I like more foods than I dislike. (1 strongly disagree, 5 strongly
+        <label for="q5">I like more foods than I dislike. (1 strongly disagree, 5 strongly
           agree)</label>
-        <select class="form-control" id="exampleFormControlSelect1">
+        <select class="form-control col-sm-2" id="q5">
           <option>1</option>
           <option>2</option>
           <option>3</option>
@@ -93,8 +93,8 @@
         </select>
       </div>
       <div class="form-group">
-        <label for="exampleFormControlSelect1">I like to get up really early. (1 strongly disagree, 5 strongly agree)</label>
-        <select class="form-control" id="exampleFormControlSelect1">
+        <label for="q6">I like to get up really early. (1 strongly disagree, 5 strongly agree)</label>
+        <select class="form-control col-sm-2" id="q6">
           <option>1</option>
           <option>2</option>
           <option>3</option>
@@ -103,9 +103,9 @@
         </select>
       </div>
       <div class="form-group">
-        <label for="exampleFormControlSelect1">I'd rather be too cold than too hot. (1 strongly disagree, 5 strongly
+        <label for="q7">I'd rather be too cold than too hot. (1 strongly disagree, 5 strongly
           agree)</label>
-        <select class="form-control" id="exampleFormControlSelect1">
+        <select class="form-control col-sm-2" id="q7">
           <option>1</option>
           <option>2</option>
           <option>3</option>
@@ -114,35 +114,41 @@
         </select>
       </div>
       <div class="form-group">
-          <label for="exampleFormControlSelect1">Dogs are better than cats. (1 strongly disagree, 5 strongly agree)</label>
-          <select class="form-control" id="exampleFormControlSelect1">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
-        </div>
-        <div class="form-group">
-            <label for="exampleFormControlSelect1">I have more than 10 close friends. (1 strongly disagree, 5 strongly agree)</label>
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </select>
-          </div>
-          <div class="form-group">
-              <label for="exampleFormControlSelect1">I'd rather technology find friends for me. (1 strongly disagree, 5 strongly agree)</label>
-              <select class="form-control" id="exampleFormControlSelect1">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </select>
-            </div>
+        <label for="q8">Dogs are better than cats. (1 strongly disagree, 5 strongly agree)</label>
+        <select class="form-control col-sm-2" id="q8">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="q9">I have more than 10 close friends. (1 strongly disagree, 5 strongly
+          agree)</label>
+        <select class="form-control col-sm-2" id="q9">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="q10">I'd rather technology find friends for me. (1 strongly disagree, 5
+          strongly agree)</label>
+        <select class="form-control col-sm-2" id="q10">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+      <br>
+
+      <!-- Submit Button -->
+      <button type="submit" class="btn btn-primary btn-lg" id="submit">Submit</button>
     </form>
   </div>
 
