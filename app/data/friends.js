@@ -1,6 +1,6 @@
 let friends = [
   {
-    "name":"Ahmed",
+    "name":"Zaphod",
     "photo":"https://placeimg.com/200/200/people",
     "scores":[
         5,
@@ -16,7 +16,7 @@ let friends = [
       ]
   },
   {
-    "name":"Bhmed",
+    "name":"Marvin",
     "photo":"https://placeimg.com/200/200/people",
     "scores":[
         1,
