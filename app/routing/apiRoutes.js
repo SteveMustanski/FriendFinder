@@ -53,7 +53,7 @@ module.exports = function (app) {
     }
 
     //push user to database
-    //friends.push(userData);
+    friends.push(userData);
 
     // Return a JSON with new best friend
     res.json(bestFriend);
