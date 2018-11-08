@@ -1,7 +1,7 @@
 let friends = [
   {
     "name":"Ahmed",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"https://placeimg.com/200/200/people",
     "scores":[
         5,
         1,
@@ -12,6 +12,22 @@ let friends = [
         2,
         5,
         4,
+        1
+      ]
+  },
+  {
+    "name":"Bhmed",
+    "photo":"https://placeimg.com/200/200/people",
+    "scores":[
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
         1
       ]
   }
