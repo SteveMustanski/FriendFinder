@@ -29,6 +29,11 @@ The user's information is then stored in the array.  Once Heroku shuts down the 
 * express
 * path
 
+# Try the app
+You can test out the app at: https://secret-journey-42090.herokuapp.com/
+
+Note that it may take a few seconds for Heroku to respond if the application hasn't been hit recently.
+
 # TODO
 * better user navigation
 * pretty up the survey form
