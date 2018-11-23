@@ -38,7 +38,7 @@ Note that it may take a few seconds for Heroku to respond if the application has
 * better user navigation
 * pretty up the survey form
 * refactoring the code to have better variable names
-* reset the survey form after submit
+
 
 
 
