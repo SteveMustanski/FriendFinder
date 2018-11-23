@@ -1,6 +1,6 @@
 ## FriendFinder
 This project is part of a coding bootcamp that introduces node and express to serve an application to the client.  To make the application work,
-node and epxress are used in the backend to process and return data as well has handle simple routing
+node and epxress are used in the backend to process and return data as well has handle simple routing.
 
 The application asks the user several questions and matches that data with existing users to suggest a friend.
 
@@ -39,5 +39,6 @@ Note that it may take a few seconds for Heroku to respond if the application has
 * pretty up the survey form
 * refactoring the code to have better variable names
 * reset the survey form after submit
+
 
 
