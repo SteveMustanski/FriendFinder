@@ -1,7 +1,7 @@
 let friends = [
   {
     "name":"Zaphod",
-    "photo":"https://placeimg.com/200/200/people",
+    "photo":"https://www.comedy.co.uk/images/library/comedies/300x200/h/h2g2_tv_zaphod.jpg",
     "scores":[
         5,
         1,
@@ -17,7 +17,7 @@ let friends = [
   },
   {
     "name":"Marvin",
-    "photo":"https://placeimg.com/200/200/people",
+    "photo":"https://i.imgur.com/zDNChPE.gif",
     "scores":[
         1,
         1,
